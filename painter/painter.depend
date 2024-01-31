@@ -1,0 +1,315 @@
+# depslib dependency file v1.0
+1679851397 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\common\cmdlib.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<ctype.h>
+	<time.h>
+	<stdarg.h>
+	"cmdlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<direct.h>
+	<libc.h>
+
+1680471528 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\common\cmdlib.h
+	<stdio.h>
+
+1680730400 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\common\threads.c
+	"cmdlib.h"
+	"threads.h"
+	<windows.h>
+	<stdlib.h>
+	<pthread.h>
+
+1679851367 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\common\threads.h
+
+1679697412 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\client.cpp
+
+1679697641 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\painter.cpp
+	<iostream>
+
+1679697381 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\server.cpp
+
+1679697467 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\util.c
+
+1681388637 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\glpainter.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mx.h>
+	"shared.h"
+	"server.h"
+	"client.h"
+	"SDWindow.h"
+	"RCWindow.h"
+	"action.h"
+	<wiringPi.h>
+	"GlPainter.h"
+
+1679791637 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\action.cpp
+
+1681324041 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\painter.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"cmdlib.h"
+	"threads.h"
+	"GlPainter.h"
+	"shared.h"
+	"server.h"
+	"client.h"
+	"action.h"
+	"painter.h"
+
+1680091470 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\painter.h
+
+1680793665 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\softgpio.c
+	<windows.h>
+	<unistd.h>
+	"cmdlib.h"
+	"softgpio.h"
+
+1681228478 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\softgpio.h
+
+1679701012 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\receiver.cpp
+
+1679700981 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\sender.cpp
+
+1680471528 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\buffer.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+
+1680471528 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\buffer.h
+
+1681328926 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\receiver.c
+	<stdio.h>
+	"buffer.h"
+	"softgpio.h"
+	<wiringPi.h>
+	"shared.h"
+
+1680518897 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\sender.c
+	<stdio.h>
+	"buffer.h"
+	"softgpio.h"
+	<wiringPi.h>
+	"shared.h"
+
+1680372079 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\sender.h
+	"buffer.h"
+
+1681248932 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\shared.h
+	"buffer.h"
+	"cmdlib.h"
+
+1680372338 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\receiver.h
+	"buffer.h"
+
+1680371958 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\action.h
+
+1680517404 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\action.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"softgpio.h"
+	<wiringPi.h>
+	"shared.h"
+	"server.h"
+	"action.h"
+
+1681329021 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"softgpio.h"
+	<wiringPi.h>
+	"shared.h"
+	"server.h"
+	"client.h"
+
+1681388331 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\server.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"softgpio.h"
+	<wiringPi.h>
+	"shared.h"
+	"client.h"
+	"server.h"
+
+1681388331 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\server.h
+
+1681211349 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\client.h
+
+1681388378 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\glwindow.cpp
+	<mx.h>
+	<mxMessageBox.h>
+	<gl.h>
+	<GL/glu.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	"CmdLine.h"
+	"shared.h"
+	"server.h"
+	"client.h"
+	"GlWindow.h"
+	<wiringPi.h>
+
+1681323535 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\rcwindow.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mx.h>
+	<gl.h>
+	"GlWindow.h"
+	"RCWindow.h"
+	<wiringPi.h>
+
+1681323535 source:c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\sdwindow.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mx.h>
+	<gl.h>
+	"GlWindow.h"
+	"SDWindow.h"
+	<wiringPi.h>
+
+1496455312 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mx.h
+	<windows.h>
+	<mxButton.h>
+	<mxCheckBox.h>
+	<mxChoice.h>
+	<mxChooseColor.h>
+	<mxEvent.h>
+	<mxFileDialog.h>
+	<mxGlWindow.h>
+	<mxGroupBox.h>
+	<mxInit.h>
+	<mxLabel.h>
+	<mxLineEdit.h>
+	<mxLinkedList.h>
+	<mxListBox.h>
+	<mxMenu.h>
+	<mxMenuBar.h>
+	<mxMessageBox.h>
+	<mxMultiLineEdit.h>
+	<mxPopupMenu.h>
+	<mxProgressBar.h>
+	<mxRadioButton.h>
+	<mxSlider.h>
+	<mxTab.h>
+	<mxToggleButton.h>
+	<mxToolTip.h>
+	<mxTreeView.h>
+	<mxWidget.h>
+	<mxWindow.h>
+	<mxpath.h>
+	<mxstring.h>
+
+1462241042 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxbutton.h
+	<mxWidget.h>
+
+1496096256 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxwidget.h
+
+1462241046 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxcheckbox.h
+	<mxWidget.h>
+
+1462241052 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxchoice.h
+	<mxWidget.h>
+
+921874320 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxchoosecolor.h
+
+1496453502 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxevent.h
+
+1461886216 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxfiledialog.h
+
+1496434514 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxglwindow.h
+	<windows.h>
+	<mxWindow.h>
+
+1516741702 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxwindow.h
+	<mxWidget.h>
+	<mxEvent.h>
+
+1462241090 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxgroupbox.h
+	<mxWidget.h>
+
+1496453818 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxinit.h
+	<windows.h>
+
+1462241100 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxlabel.h
+	<mxWidget.h>
+
+1462241104 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxlineedit.h
+	<mxWidget.h>
+
+921874320 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxlinkedlist.h
+
+1462241114 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxlistbox.h
+	<mxWidget.h>
+
+1462241120 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxmenu.h
+	<mxWidget.h>
+
+1462241124 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxmenubar.h
+	<mxWidget.h>
+
+921874320 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxmessagebox.h
+
+1462241132 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxmultilineedit.h
+	<mxWidget.h>
+
+1462241190 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxpopupmenu.h
+	<mxWidget.h>
+
+1462241194 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxprogressbar.h
+	<mxWidget.h>
+
+1462241200 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxradiobutton.h
+	<mxWidget.h>
+
+1496095190 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxslider.h
+	<mxWidget.h>
+
+1462241218 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxtab.h
+	<mxWidget.h>
+
+1462241228 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxtogglebutton.h
+	<mxWidget.h>
+
+921874320 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxtooltip.h
+
+1462241240 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxtreeview.h
+	<mxWidget.h>
+
+925335300 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxpath.h
+
+1471389816 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\mxstring.h
+
+921874320 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\utils\mxtk\gl.h
+	"windows.h"
+	"GL/gl.h"
+
+1681386197 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\glwindow.h
+	<mxGlWindow.h>
+	"CmdLine.h"
+
+1681324041 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\glpainter.h
+
+1681383871 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\sdwindow.h
+	<mx/mxWindow.h>
+
+1681383896 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\rcwindow.h
+	<mx/mxWindow.h>
+
+1681304073 c:\users\hasee\desktop\s2_22_23\labs\p_lab\p20_all\painter_win\painter\cmdline.h
+	<cstdio>
+	<vector>
+	<iterator>
+

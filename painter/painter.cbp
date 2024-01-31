@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="painter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/painter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_NOENUMQBOOL" />
+					<Add option="-D_SOFTGPIO" />
+					<Add option="-D_SERVER" />
+					<Add directory="../common" />
+					<Add directory="../utils/common" />
+					<Add directory="../utils/mxtk" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+					<Add option="..\utils\common\libmxtk.a" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="comctl32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/painter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-ansi" />
+					<Add option="-m32" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_NOENUMQBOOL" />
+					<Add option="-D_SOFTGPIO" />
+					<Add directory="../common" />
+					<Add directory="../utils/common" />
+					<Add directory="../utils/mxtk" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m32" />
+					<Add option="..\utils\common\libmxtk.a" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="comctl32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../common/cmdlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../common/cmdlib.h" />
+		<Unit filename="../common/threads.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../common/threads.h" />
+		<Unit filename="CmdLine.h" />
+		<Unit filename="GlPainter.cpp" />
+		<Unit filename="GlPainter.h" />
+		<Unit filename="GlWindow.cpp" />
+		<Unit filename="GlWindow.h" />
+		<Unit filename="RCWindow.cpp" />
+		<Unit filename="RCWindow.h" />
+		<Unit filename="SDWindow.cpp" />
+		<Unit filename="SDWindow.h" />
+		<Unit filename="action.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="action.h" />
+		<Unit filename="buffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="buffer.h" />
+		<Unit filename="client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="client.h" />
+		<Unit filename="painter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="painter.h" />
+		<Unit filename="receiver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="server.h" />
+		<Unit filename="shared.h" />
+		<Unit filename="softgpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="softgpio.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
